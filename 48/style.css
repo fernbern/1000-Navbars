@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: darkmagenta;
+    position: fixed;
+    box-shadow: 10px 4px 5px rgba(0,0,0,0.2);
+}
+header .logo {
+    font-size: 2rem;
+    color: white;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#hero {
+    background-color: #0089f3;
+    height: 55vh;
+    text-align: center;
+}
+.heading-primary {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10%;
+}
+.btn {
+    background-color: crimson;
+    padding: 5px 10px;
+    transition: .25s ease-in-out;
+}
+.btn:hover {
+    background-color: rgb(226, 53, 87);
+}
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-img img {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+.about-text {
+    height: auto;
+    margin: 20px
+}
+@media screen and (max-width: 700px) {
+    .about-content {
+      grid-template-columns: 1fr;
+    }
+    
+  }
+#work > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box {
+    background: url('bamboopark.gif');
+    object-fit: cover;
+    color: white;
+}
+.center {
+    padding: 70px 0;
+    border: 3px solid black;
+    text-align: center;
+    transition: .25s ease-in-out;
+}
+.center:hover {
+    background-color: crimson;
+    opacity: .5;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .wrapper {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
