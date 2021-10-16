@@ -25,7 +25,7 @@ header {
 }
 header .logo {
     font-size: 2rem;
-    color: white;
+    color: #fff;
 }
 header nav a {
     color: white;
